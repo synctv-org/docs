@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/synctv-org/synctv"><img height="100px" alt="logo" style="border-radius: 50%" src="https://github.com/kabaka9527/synctv-docs/logo/logo.png"/></a>
+  <a href="https://github.com/synctv-org/synctv"><img height="100px" alt="logo" style="border-radius: 50%" src="/logo/logo.png"/></a>
   <p><em>👫一个可以远程一起看电影/直播的程序🍿</em></p>
     <div>
         <a href="https://goreportcard.com/report/github.com/synctv-org/synctv">
