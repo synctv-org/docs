@@ -7,4 +7,5 @@
 * OAuth2
   * [What is OAuth2](oauth2.md)
   * [Github](oauth2-github.md)
+  * [Gitee](oauth2-gitee.md)
   * [Write plugin](write-a-oauth2-plugin.md)
