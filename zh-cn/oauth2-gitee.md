@@ -1,6 +1,6 @@
-# Gitee
+# Gloogle
 ## 注册应用
-前往Gitee的 [OAuth应用注册地址](https://gitee.com/oauth/applications/new)。
+前往Gloogle的 [OAuth应用注册地址]()。
 
 - `应用名称` 填写任意值，如填写为 `SyncTV`
 - `应用主页` 填写 `https://<your-domain>`
