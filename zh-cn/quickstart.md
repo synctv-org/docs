@@ -9,6 +9,21 @@
 sudo -v ; curl https://raw.githubusercontent.com/synctv-org/synctv/main/script/install.sh | sudo bash -s -- -v latest
 ```
 
+#### Linux服务
+
+使用 `一键脚本` 安装后可以使用以下命令
+```bash
+systemctl start synctv.service # 启动
+
+systemctl stop synctv.service # 停止
+
+systemctl restart synctv.service # 重启
+
+systemctl enable synctv.service # 关闭自启动
+
+systemctl disable synctv.service # 关闭自启动
+```
+
 ### Docker
 您也可以使用 docker 安装并运行 SyncTV。
 
@@ -17,20 +32,6 @@ docker run -d --name synctv -p 8080:8080 synctvorg/synctv
 ```
 
 有关 docker 镜像的更多信息，请参阅[此处](https://hub.docker.com/r/synctvorg/synctv)。
-
-## Linux服务
-
-使用`一键脚本`安装后可以使用以下命令
-```bash
-重启：systemctl restart synctv.service
-
-启动：systemctl start synctv.service
-
-停止：systemctl stop synctv.service
-
-禁用：systemctl disable synctv.service
-
-```
 
 ----
 
@@ -58,9 +59,4 @@ server      # Start synctv-server
 setting     # setting
 user        # user
 version     # Print the version number of Sync TV Server
-```
-
-## 启动服务器
-```bash
-synctv server --data-dir ./
 ```

@@ -6,7 +6,22 @@ You can download the latest binary from [release page](https://github.com/synctv
 You can use the script to install and run SyncTV.
 
 ```bash
-sudo -v ; curl https://raw.githubusercontent.com/synctv-org/synctv/main/install.sh | sudo bash -s -- -v latest
+sudo -v ; curl https://raw.githubusercontent.com/synctv-org/synctv/main/script/install.sh | sudo bash -s -- -v latest
+```
+
+#### Linux Service
+
+After installing with `Script`, you can use the following commands
+```bash
+systemctl start synctv.service # start
+
+systemctl stop synctv.service # stop
+
+systemctl restart synctv.service # restart
+
+systemctl enable synctv.service # disable auto start
+
+systemctl disable synctv.service # disable auto start
 ```
 
 ### Docker
@@ -23,7 +38,6 @@ More information about docker image, please see [here](https://hub.docker.com/r/
 ## Usage
 ### Global Flags
 ```bash
--f, --config string            config file path
     --data-dir string          data dir (default "/Users/zijiren/.synctv")
     --dev                      start with dev mode (default true)
     --env-no-prefix            env no SYNCTV_ prefix
@@ -45,9 +59,4 @@ server      # Start synctv-server
 setting     # setting
 user        # user
 version     # Print the version number of Sync TV Server
-```
-
-## Start Server
-```bash
-synctv server --data-dir ./
 ```
