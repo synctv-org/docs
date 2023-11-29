@@ -1,5 +1,6 @@
 * 入门
   * [快速开始](quickstart.md)
+  * [反向代理](reverse-proxy.md)
 
 * 配置
   * [配置项](configuration.md)
