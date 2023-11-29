@@ -20,25 +20,7 @@ docker run -d --name synctv -p 8080:8080 synctvorg/synctv
 
 ## Linux服务
 
-### 手动配置为Linux服务
-
-**vim /etc/systemd/system/synctv.service**
-
-```bash
-[Unit]
-Description=SyncTV Service
-After=network.target
-
-[Service]
-ExecStart=/usr/bin/synctv server --data-dir /opt/synctv
-WorkingDirectory=/opt/synctv
-Restart=unless-stopped
-
-[Install]
-WantedBy=multi-user.target
-```
-
-使用`一键脚本`安装或配置`systemctl守护进程`后可以使用以下命令
+使用`一键脚本`安装后可以使用以下命令
 ```bash
 重启：systemctl restart synctv.service
 
