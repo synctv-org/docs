@@ -19,6 +19,15 @@
 
 <img width="350px" alt="oauth2-baidu-info" src="/img/oauth2/oauth2-baidu-info.jpg"/>
 
+前往应用的安全设置处设置回调地址
+
+回调地址示例为 `https://<your-domain>/web/oauth2/callback/baidu`
+
+<img width="350px"
+alt="oauth2-baidu-config-oauth2"
+src="/img/oauth2/oauth2-baidu-config-oauth2.jpg"
+/>
+
 ## 填写配置
 前往synctv管理后台oauth2配置页并找到百度或百度网盘配置项
 
