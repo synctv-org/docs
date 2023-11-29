@@ -6,7 +6,7 @@
 您可以使用该脚本来安装和运行 SyncTV。
 
 ```bash
-sudo -v ; curl https://raw.githubusercontent.com/synctv-org/synctv/main/install.sh | sudo bash -s -- -v latest
+sudo -v ; curl https://raw.githubusercontent.com/synctv-org/synctv/main/script/install.sh | sudo bash -s -- -v latest
 ```
 
 ### Docker
@@ -17,6 +17,38 @@ docker run -d --name synctv -p 8080:8080 synctvorg/synctv
 ```
 
 有关 docker 镜像的更多信息，请参阅[此处](https://hub.docker.com/r/synctvorg/synctv)。
+
+## Linux服务
+
+### 手动配置为Linux服务
+
+**vim /etc/systemd/system/synctv.service**
+
+```bash
+[Unit]
+Description=SyncTV Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/synctv server --data-dir /opt/synctv
+WorkingDirectory=/opt/synctv
+Restart=unless-stopped
+
+[Install]
+WantedBy=multi-user.target
+```
+
+使用`一键脚本`安装或配置`systemctl守护进程`后可以使用以下命令
+```bash
+重启：systemctl restart synctv.service
+
+启动：systemctl start synctv.service
+
+停止：systemctl stop synctv.service
+
+禁用：systemctl disable synctv.service
+
+```
 
 ----
 
