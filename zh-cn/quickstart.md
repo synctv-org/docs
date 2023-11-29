@@ -37,7 +37,6 @@ docker run -d --name synctv -p 8080:8080 synctvorg/synctv
 ## 用法
 ### 全局标志
 ```bash
--f, --config string            config file path
     --data-dir string          data dir (default "/Users/zijiren/.synctv")
     --dev                      start with dev mode (default true)
     --env-no-prefix            env no SYNCTV_ prefix
