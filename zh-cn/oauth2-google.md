@@ -23,19 +23,19 @@
 <img width="350px" alt="oauth2-google" src="/img/oauth2/oauth2-google.jpg"/>
 
 其中 
-`客户端ID` 为 `client _id`
-`客户端密钥` 为 `client_secret`
+`客户端ID` 为 `Client ID`
+`客户端密钥` 为 `Client Secret`
 可随时查看，并不会隐藏
 ## 填写配置
-在 `config.yaml` 中填写 `client _id` 和 `client_secret`。
+前往synctv管理后台oauth2配置页并找到Google配置项
 
-```yaml
-oauth2:
-    providers:
-        google:
-            client_id: xxxxxx
-            client_secret: xxxxxx
-            redirect_url: ""
-```
+<img width="350px"
+alt="oauth2-google-config"
+src="/img/oauth2/oauth2-google-config.jpg"
+/>
 
-`redirect_url` 需要填写你的回调地址 `https://<your-domain>/web/oauth2/callback/google`
+点击启用
+
+将`Client ID` 和`Client Secret`填写完整
+
+`Redirect url`则填写回调地址
