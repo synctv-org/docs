@@ -1,6 +1,6 @@
-# Gloogle
+# Gitee
 ## 注册应用
-前往Gloogle的 [OAuth应用注册地址]()。
+前往Gitee的 [OAuth应用注册地址]()。
 
 - `应用名称` 填写任意值，如填写为 `SyncTV`
 - `应用主页` 填写 `https://<your-domain>`
@@ -22,15 +22,15 @@ Gitee与Github不同，Client ID和Client Secret随时可查看
 <img width="350px" alt="oauth2-gitee-client" src="/img/oauth2/oauth2-gitee-client.jpg"/>
 
 ## 填写配置
-在 `config.yaml` 中的oauth2下的providers中添加填写一个gitee的配置
+前往synctv管理后台oauth2配置页并找到Gitee配置项
 
-```yaml
-oauth2:
-    providers:
-        gitee:
-            client_id: xxxxxx
-            client_secret: xxxxxx
-            redirect_url: ""
-```
+<img width="350px"
+alt="oauth2-gitee-config"
+src="/img/oauth2/oauth2-gitee-config.jpg"
+/>
 
-`redirect_url` 填写你的应用回调地址
+点击启用
+
+将`Client ID` 和`Client Secret`填写完整
+
+`Redirect url`则填写回调地址
