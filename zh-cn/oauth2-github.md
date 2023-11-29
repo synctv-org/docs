@@ -26,15 +26,15 @@
 <img width="350px" alt="oauth2-github-client" src="/img/oauth2/oauth2-github-client.jpg"/>
 
 ## 填写配置
-在 `config.yaml` 中填写 `client _id` 和 `client_secret`。
+前往synctv管理后台oauth2配置页并找到Github配置项
 
-```yaml
-oauth2:
-    providers:
-        github:
-            client_id: xxxxxx
-            client_secret: xxxxxx
-            redirect_url: ""
-```
+<img width="350px"
+alt="oauth2-github-config"
+src="/img/oauth2/oauth2-github-config.jpg"
+/>
 
-`redirect_url` 可以不填写，因为 `github` 的每个应用只支持一个 `redirect_url`。
+将`Client ID` 和`Client Secret`填写完整
+
+`Redirect Url` 无需填写，因为Github仅支持一个回调地址
+
+- `点击启用`
