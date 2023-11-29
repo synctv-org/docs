@@ -34,8 +34,8 @@ alt="oauth2-google-config"
 src="/img/oauth2/oauth2-google-config.jpg"
 />
 
-点击启用
-
 将`Client ID` 和`Client Secret`填写完整
 
 `Redirect url`则填写回调地址
+
+- `点击启用`

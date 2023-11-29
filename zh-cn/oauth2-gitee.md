@@ -1,6 +1,6 @@
 # Gitee
 ## 注册应用
-前往Gitee的 [OAuth应用注册地址]()。
+前往Gitee的 [OAuth应用注册地址](https://gitee.com/oauth/applications/new)。
 
 - `应用名称` 填写任意值，如填写为 `SyncTV`
 - `应用主页` 填写 `https://<your-domain>`
@@ -29,8 +29,8 @@ alt="oauth2-gitee-config"
 src="/img/oauth2/oauth2-gitee-config.jpg"
 />
 
-点击启用
-
 将`Client ID` 和`Client Secret`填写完整
 
 `Redirect url`则填写回调地址
+
+- `点击启用`

@@ -9,4 +9,5 @@
   * [Github](oauth2-github.md)
   * [Gitee](oauth2-gitee.md)
   * [Google](oauth2-google.md)
+  * [百度](oauth2-baidu.md)
   * [插件编写](write-a-oauth2-plugin.md)

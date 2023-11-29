@@ -33,8 +33,8 @@ alt="oauth2-github-config"
 src="/img/oauth2/oauth2-github-config.jpg"
 />
 
-点击启用
-
 将`Client ID` 和`Client Secret`填写完整
 
 `Redirect Url` 无需填写，因为Github仅支持一个回调地址
+
+- `点击启用`
