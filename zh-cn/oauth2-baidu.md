@@ -13,8 +13,8 @@
 ## 获取 Client ID 和 Client Secret
 创建成功后，会有相关的信息显示，与Gitee一样，百度的相关信息参数也随时可查
 
-- `APPID` 为Client ID
-- `APPkey` 为Client Secret
+- `AppKey` 为Client ID
+- `SecretKey` 为Client Secret
 
 
 <img width="350px" alt="oauth2-baidu-info" src="/img/oauth2/oauth2-baidu-info.jpg"/>
