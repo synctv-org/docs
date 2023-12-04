@@ -1,5 +1,6 @@
 * Getting started
   * [Quick start](quickstart.md)
+  * [Reverse proxy](reverse-proxy.md)
 
 * Configuration
   * [Configuration](configuration.md)

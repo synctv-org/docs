@@ -1,5 +1,4 @@
 # Google
-## `注意！！⚠️Google不允许使用ip地址作为回调，使用需要域名解析ip使用`
 ## 注册应用
 前往Goole [云端平台](https://console.cloud.google.com/projectselector2/apis/dashboard?project=_&supportedpurview=project)。
 登录账号
