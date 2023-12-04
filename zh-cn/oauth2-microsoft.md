@@ -2,7 +2,7 @@
 ## 注册应用
 
 **`注意⚠️!!Microsoft回调地址填写需要配置https`**
-**`本机调试可使用http://localhost:<port>` **
+**`本机调试可使用http://localhost:<port>`**
 
 前往Microsoft [云端平台](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/CreateApplicationBlade/quickStartType~/null/isMSAApp~/false)。
 登录账号
