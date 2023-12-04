@@ -8,7 +8,7 @@
 前往Microsoft [云端平台](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/CreateApplicationBlade/quickStartType~/null/isMSAApp~/false)。
 登录账号
 
-<img width="350px" alt="oauth2-microsoft-mkdir" src="/img/oauth2/oauth2-microsoft-mkdir.jpg"/>
+<img width="350px" alt="oauth2-microsoft-create" src="/img/oauth2/oauth2-microsoft-create.jpg"/>
 
 
 * 将相关的配置填写完毕
