@@ -1,6 +1,9 @@
 # Google
 ## 注册应用
-前往Goole [云端平台](https://console.cloud.google.com/projectselector2/apis/dashboard?project=_&supportedpurview=project)。
+
+**`注意⚠️!!Google回调地址填写需要使用域名`**
+
+前往Google [云端平台](https://console.cloud.google.com/projectselector2/apis/dashboard?project=_&supportedpurview=project)。
 登录账号
 
 <img width="350px" alt="oauth2-google-mkdir" src="/img/oauth2/oauth2-google-mkdir.jpg"/>

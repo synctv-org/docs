@@ -13,20 +13,30 @@
 ## 获取 Client ID 和 Client Secret
 创建成功后，会有相关的信息显示，与Gitee一样，百度的相关信息参数也随时可查
 
-- `APPID` 为Client ID
-- `APPkey` 为Client Secret
+- `AppKey` 为Client ID
+- `SecretKey` 为Client Secret
 
 
 <img width="350px" alt="oauth2-baidu-info" src="/img/oauth2/oauth2-baidu-info.jpg"/>
 
 前往应用的安全设置处设置回调地址
 
-回调地址示例为 `https://<your-domain>/web/oauth2/callback/baidu`
 
 <img width="350px"
 alt="oauth2-baidu-config-oauth2"
 src="/img/oauth2/oauth2-baidu-config-oauth2.jpg"
 />
+
+`百度`回调地址示例为 `https://<your-domain>/web/oauth2/callback/baidu`
+
+`百度网盘`回调地址示例为`https://<your-domain>/web/oauth2/callback/baidu-netdisk`
+
+如需百度网盘和百度一起使用则需要将两个回调地址都填写
+
+示例为
+```bash
+https://<your-domain>/web/oauth2/callback/baidu,https://<your-domain>/web/oauth2/callback/baidu-netdisk
+```
 
 ## 填写配置
 前往synctv管理后台oauth2配置页并找到百度或百度网盘配置项
