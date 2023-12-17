@@ -36,7 +36,6 @@ src="/img/oauth2/oauth2-microsoft-info.jpg"
 其中 
 `应用程序(客户端) ID` 为 `Client ID`
 `客户端密码的值` 为 `Client Secret`
-可随时查看，并不会隐藏
 ## 填写配置
 前往synctv管理后台oauth2配置页并找到Microsoft配置项
 
