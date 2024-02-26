@@ -10,6 +10,7 @@
   * [Github](oauth2-github.md)
   * [Gitee](oauth2-gitee.md)
   * [Google](oauth2-google.md)
+  * [Rainbow](oauth2-rainbow.md)
   * [百度](oauth2-baidu.md)
   * [Microsoft](oauth2-microsoft.md)
   * [插件编写](write-a-oauth2-plugin.md)
