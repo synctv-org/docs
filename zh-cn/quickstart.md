@@ -19,7 +19,7 @@ systemctl stop synctv.service # 停止
 
 systemctl restart synctv.service # 重启
 
-systemctl enable synctv.service # 关闭自启动
+systemctl enable synctv.service # 开启自启动
 
 systemctl disable synctv.service # 关闭自启动
 ```

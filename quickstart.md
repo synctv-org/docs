@@ -19,7 +19,7 @@ systemctl stop synctv.service # stop
 
 systemctl restart synctv.service # restart
 
-systemctl enable synctv.service # disable auto start
+systemctl enable synctv.service # enable auto start
 
 systemctl disable synctv.service # disable auto start
 ```
