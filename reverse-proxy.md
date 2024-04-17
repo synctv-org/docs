@@ -16,6 +16,8 @@ location / {
     proxy_set_header Range $http_range;
 	proxy_set_header If-Range $http_if_range;
     client_max_body_size 20m;
+    proxy_cache off;
+    proxy_buffering off;
     proxy_http_version 1.1;
 }
 ```
