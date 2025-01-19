@@ -1,0 +1,3 @@
+[submodule "synctv"]
+	path = synctv
+	url = https://github.com/synctv-org/synctv
