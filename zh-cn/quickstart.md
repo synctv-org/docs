@@ -87,6 +87,12 @@ helm upgrade --install synctv synctv/synctv \
 
 > 更多 Helm 参数:[helm-values](helm-values.md)
 
+#### Helm Uninstall
+
+```bash
+helm uninstall -n synctv synctv
+```
+
 ----
 
 ## 用法
