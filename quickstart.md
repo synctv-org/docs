@@ -61,6 +61,32 @@ services:
       - TZ=Asia/Shanghai
 ```
 
+### Helm
+
+#### Helm Install
+
+```bash
+helm repo add synctv https://docs.synctv.wiki/helm-charts
+helm search repo synctv
+helm pull synctv/synctv
+helm upgrade --install synctv synctv/synctv \
+  -n synctv --create-namespace \
+  --set ingress.enabled=true \
+  --set ingress.className=nginx \
+  --set 'ingress.hosts[0].host=<yourdomain.com>' \
+  --set 'ingress.hosts[0].secretName=<yourdomain-secretName>'
+```
+
+#### Helm Upgrade
+
+```bash
+helm upgrade --install synctv synctv/synctv \
+  -n synctv \
+  --reuse-values
+```
+
+> More Helm Values:[helm-values](helm-values.md)
+
 ----
 
 ## Usage

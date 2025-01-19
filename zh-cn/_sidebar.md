@@ -1,6 +1,7 @@
 * 入门
   * [快速开始](quickstart.md)
   * [反向代理](reverse-proxy.md)
+  * [Helm](helm-values.md)
 
 * 配置
   * [配置项](configuration.md)

@@ -1,6 +1,7 @@
 * Getting started
   * [Quick start](quickstart.md)
   * [Reverse proxy](reverse-proxy.md)
+  * [Helm](helm-values.md)
 
 * Configuration
   * [Configuration](configuration.md)
