@@ -12,4 +12,4 @@ SyncTV leverages P2P services provided by [SwarmCloud](https://swarmcloud.net/) 
 
 SwarmCloud requires no additional configuration - simply register an account on the [SwarmCloud Dashboard](https://dashboard.swarmcloud.net/#/signup?zone=p3&inviter=pyh1670605849%40gmail.com) and add your domain name.
 
-<img width="350px" alt="p2p-cdnbye" src="/img/p2p/swarmcloud.jpg"/>
+<img width="350px" alt="p2p-cdnbye" src="/img/p2p/swarmcloud.png"/>

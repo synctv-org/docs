@@ -12,4 +12,4 @@ SyncTV 借助 [CDNBye](https://www.cdnbye.com/cn/) 提供的 P2P 服务，可以
 
 CDNBye 无需任何额外配置，只需要在 [CDNBye 面板](https://dashboard.swarmcloud.net/#/signup?zone=p3&inviter=pyh1670605849%40gmail.com) 注册一个账号，然后添加你的域名即可。
 
-<img width="350px" alt="p2p-cdnbye" src="/img/p2p/swarmcloud.jpg"/>
+<img width="350px" alt="p2p-cdnbye" src="/img/p2p/swarmcloud.png"/>
