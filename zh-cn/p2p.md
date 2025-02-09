@@ -8,8 +8,12 @@ SyncTV 当有多个用户观看同一个视频时，服务器需要承受很大�
 
 ## 如何使用P2P
 
-SyncTV 借助 [CDNBye](https://www.cdnbye.com/cn/) 提供的 P2P 服务，可以实现视频的 P2P 传输。
+SyncTV 借助 [CDNBye](https://www.cdnbye.com/cn/) 提供的 P2P 服务，可以轻易实现视频的 P2P 传输。
 
-CDNBye 无需任何额外配置，只需要在 [CDNBye 面板](https://dashboard.swarmcloud.net/#/signup?zone=p3&inviter=pyh1670605849%40gmail.com) 注册一个账号，然后添加你的域名即可。
+只需要在 [CDNBye 面板](https://dash.cdnbye.com/#/signup?zone=p3&inviter=pyh1670605849%40gmail.com) 注册一个账号，如果你的域名备案过那么可以使用国内的区域，否则使用国外的区域，比如 `hk` ，然后添加你的域名即可。
 
 <img width="350px" alt="p2p-cdnbye" src="/img/p2p/swarmcloud.png"/>
+
+然后前往 SyncTV 的 `管理后台` 页面中的 `系统设置`，修改 `Swarm Cloud 区域` 为对应的区域，比如 `hk` 即可。
+
+<img width="350px" alt="p2p-cdnbye" src="/img/p2p/zone.png"/>

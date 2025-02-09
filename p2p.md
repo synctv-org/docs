@@ -10,6 +10,10 @@ When multiple users are watching the same video on SyncTV, the server needs to h
 
 SyncTV leverages P2P services provided by [SwarmCloud](https://swarmcloud.net/) to enable P2P video transmission.
 
-SwarmCloud requires no additional configuration - simply register an account on the [SwarmCloud Dashboard](https://dashboard.swarmcloud.net/#/signup?zone=p3&inviter=pyh1670605849%40gmail.com) and add your domain name.
+Simply register an account on [SwarmCloud Dashboard](https://dashboard.swarmcloud.net/#/signup?zone=p3&inviter=pyh1670605849%40gmail.com). If your domain is registered in mainland China, you can use domestic regions; otherwise, use overseas regions like `hk`. Then add your domain.
 
-<img width="350px" alt="p2p-cdnbye" src="/img/p2p/swarmcloud.png"/>
+<img width="350px" alt="p2p-cdnbye" src="/img/p2p/swarmcloud-en.png"/>
+
+Then go to the `System Settings` page in SyncTV's `Admin Panel` and change the `Swarm Cloud Region` to your corresponding region, such as `hk`.
+
+<img width="350px" alt="p2p-cdnbye" src="/img/p2p/zone.png"/>
