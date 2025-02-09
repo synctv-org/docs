@@ -2,6 +2,7 @@
   * [快速开始](quickstart.md)
   * [反向代理](reverse-proxy.md)
   * [Helm](helm-values.md)
+  * [P2P](p2p.md)
 
 * 配置
   * [配置项](configuration.md)

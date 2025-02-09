@@ -2,6 +2,7 @@
   * [Quick start](quickstart.md)
   * [Reverse proxy](reverse-proxy.md)
   * [Helm](helm-values.md)
+  * [P2P](p2p.md)
 
 * Configuration
   * [Configuration](configuration.md)
