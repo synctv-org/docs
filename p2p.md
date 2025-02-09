@@ -17,3 +17,9 @@ Simply register an account on [SwarmCloud Dashboard](https://dashboard.swarmclou
 Then go to the `System Settings` page in SyncTV's `Admin Panel` and change the `Swarm Cloud Region` to your corresponding region, such as `hk`.
 
 <img width="350px" alt="p2p-cdnbye" src="/img/p2p/zone.png"/>
+
+[Zone Selection](https://swarmcloud.net/guides/tracker):
+
+- HongKong: `hk`
+- USA: `us`
+- Europe: `eu`

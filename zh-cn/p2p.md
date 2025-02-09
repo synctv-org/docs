@@ -17,3 +17,10 @@ SyncTV 借助 [CDNBye](https://www.cdnbye.com/cn/) 提供的 P2P 服务，可以
 然后前往 SyncTV 的 `管理后台` 页面中的 `系统设置`，修改 `Swarm Cloud 区域` 为对应的区域，比如 `hk` 即可。
 
 <img width="350px" alt="p2p-cdnbye" src="/img/p2p/zone.png"/>
+
+[区域选择](https://www.cdnbye.com/cn/tracker.html)：
+
+- 广州：`cn`
+- 香港：`hk`
+- 美国：`us`
+- 欧洲: `eu`
