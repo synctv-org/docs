@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   synctv:
   - apiVersion: v2
+    appVersion: 0.9.9
+    created: "2025-02-19T23:00:56.994285+08:00"
+    description: A Helm chart for deploying Synctv application with PostgreSQL StatefulSet
+    digest: b1a347f8def2c2ed9384b684891c98e109a7982a0f9fabf9d029c17a6e2a8ac6
+    name: synctv
+    type: application
+    urls:
+    - packages/synctv-0.9.9.tgz
+    version: 0.9.9
+  - apiVersion: v2
     appVersion: 0.9.8
-    created: "2025-02-13T21:54:58.168154+08:00"
+    created: "2025-02-19T23:00:56.994148+08:00"
     description: A Helm chart for deploying Synctv application with PostgreSQL StatefulSet
     digest: e2658ac48241b96206ea8b4ba9062f4dcbc3ab919822bc3376e8f43587657744
     name: synctv
@@ -13,7 +23,7 @@ entries:
     version: 0.9.8
   - apiVersion: v2
     appVersion: 0.9.6
-    created: "2025-02-13T21:54:58.167995+08:00"
+    created: "2025-02-19T23:00:56.993896+08:00"
     description: A Helm chart for deploying Synctv application with PostgreSQL StatefulSet
     digest: 235b2489fa022ebba1824a14ad5b1d21f96c8a33149ff3a0d67ee092796a3778
     name: synctv
@@ -23,7 +33,7 @@ entries:
     version: 0.9.6
   - apiVersion: v2
     appVersion: 0.9.5
-    created: "2025-02-13T21:54:58.167832+08:00"
+    created: "2025-02-19T23:00:56.993621+08:00"
     description: A Helm chart for deploying Synctv application with PostgreSQL StatefulSet
     digest: f1e19de2adf1b3f4575ad924c0ef8cad8349a05f83cec19e6c0caee3417e5258
     name: synctv
@@ -33,7 +43,7 @@ entries:
     version: 0.9.5
   - apiVersion: v2
     appVersion: 0.9.4
-    created: "2025-02-13T21:54:58.167654+08:00"
+    created: "2025-02-19T23:00:56.993336+08:00"
     description: A Helm chart for deploying Synctv application with PostgreSQL StatefulSet
     digest: 61b95c92fa7677b927f6383485589a9d5b4c4ae9995a7bdec2db5779eb77d45a
     name: synctv
@@ -43,7 +53,7 @@ entries:
     version: 0.9.4
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2025-02-13T21:54:58.167457+08:00"
+    created: "2025-02-19T23:00:56.993051+08:00"
     description: A Helm chart for deploying Synctv application with PostgreSQL StatefulSet
     digest: 38b0827f4e45faed3ad98217ce73c5aa012b40e85b5a040d12539d951e8733a5
     name: synctv
@@ -51,4 +61,4 @@ entries:
     urls:
     - packages/synctv-0.9.3.tgz
     version: 0.9.3
-generated: "2025-02-13T21:54:58.16712+08:00"
+generated: "2025-02-19T23:00:56.99259+08:00"
