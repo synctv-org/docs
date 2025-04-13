@@ -67,8 +67,7 @@ services:
 
 ```bash
 helm repo add synctv https://docs.synctv.wiki/helm-charts
-helm search repo synctv
-helm pull synctv/synctv
+helm repo update synctv
 helm upgrade --install synctv synctv/synctv \
   -n synctv --create-namespace \
   --set ingress.enabled=true \
@@ -80,6 +79,7 @@ helm upgrade --install synctv synctv/synctv \
 #### Helm Upgrade
 
 ```bash
+helm repo update synctv
 helm upgrade --install synctv synctv/synctv \
   -n synctv \
   --reuse-values
